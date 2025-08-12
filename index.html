@@ -1,36 +1,95 @@
-<div id="container">
-  <div id="content">
-    <div id="about">
-      <h1>
-        <div style='float:left; margin-bottom:20px;'>
-          Ibn Thami
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+
+  <navbar id="navbar">
+    <span id="links">
+      <a href="#welcome-section">About me</a>
+      <a href="#projects">My projects</a>
+      <a href="#profile-link">Contact</a>
+    </span>
+  </navbar>
+
+  <main>
+
+    <section id="welcome-section">
+      <div id="welcome-section-div">
+        <h1>Welcome! I am Gregory</h1>
+        <p>A web developer</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div id="projects-div">
+        <div class="block-full">
+          <h2>These are some of my projects:</h2>
         </div>
-        <div class="stage">
-          <div class="pyramid3d">
-            <div class="triangle side1"></div>
-            <div class="triangle side2"></div>
-            <div class="triangle side3"></div>
-            <div class="triangle side4"></div>
+        <div id="project-list">
+          <div class="project-tile">
+            <a href="https://codepen.io/greggry/full/LwbKVj" target="_blank">
+              <img src="https://res.cloudinary.com/dxb4xi75y/image/upload/v1569591685/thomas-edison-resized_zmywm3.jpg" alt="">
+              <span class="project-text">
+                <p>Tribute Page</p>
+              </span>
+            </a>
           </div>
-        </div> 
-      </h1>
-      <h3 style='clear:both' class="subhead">
-        <a href="https://plus.google.com/108495471566196018473/posts">Zach</a> is an enthusiastic, young, self-taught web applications developer currently studying at the University of Georgia.
-      </h3>
-      <p id='pleft'>
-        He does freelance work, writes for <a href="https://css-tricks.com/css-animation-tricks/">CSS</a> <a href="https://css-tricks.com/controlling-css-animations-transitions-javascript/">Tricks</a>, worked at <a href="http://deltadatasoft.com/">Delta Data Software</a> as a front-end developer, and is continuously working on personal projects to up his game.
-      </p>
-      <p id='pright'>
-        Look for some of his work &amp; experiments on <a href="https://codepen.io/Zeaklous">CodePen</a>, <a href="http://stackoverflow.com/users/2065702/zeaklous">StackOverflow</a>, <a href="https://cssdeck.com/user/Zeaklous">CSS Deck</a>, or a bit of his recent work below.
-      </p>
-      <ul>
-        <li><a href="https://cssdeck.com/labs/css-only-full-page-slider">CSS Only Full Page Slider</a></li>
-        <li><a href="https://codepen.io/Zeaklous/pen/alpEm">CSS3 Circular Questionnaire (Plugin in development)</a></li>
-        <li><a href="https://zachsaucier.com/TumblrBook.html">TumblrBook</a></li>
-      </ul>
-      <p>
-        Feel free to contact him at zachsaucier[at]gmail.com if you'd like for him to work for you!
-      </p>
+          <div class="project-tile">
+            <a href="https://codepen.io/greggry/full/pozydbG" target="_blank">
+              <img src="https://res.cloudinary.com/dxb4xi75y/image/upload/v1569591685/electric-guitar-resized_irdevq.jpg" alt="">
+              <span class="project-text">
+                <p>Product Landing Page</p>
+              </span>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/greggry/full/QWLOpVy" target="_blank">
+              <img src="https://res.cloudinary.com/dxb4xi75y/image/upload/v1569591685/js-documentation-page-resized_h32ybz.png" alt="">
+              <span class="project-text">
+                <p>Documentation Page</p>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-info-section">
+      <div id="profile-link-div">
+        <h1>I am looking forward to working with you!</h1>
+        <div id="contact-list">
+          <div class="profile-link-item">
+            <a id="profile-link" href="https://www.freecodecamp.org/fccb32b16f2-bc0c-4d98-af45-981db1e2d318"
+              target="_blank">
+              My FreeCodeCamp account
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div id="footer-text">
+      <div class="left">
+        This was done for learning purposes and it's not my current portfolio.&nbsp;
+      </div>
+      <div class="right">
+        Created for&nbsp;<a href="https://freecodecamp.org" target="_blank">FreeCodeCamp</a>.
+      </div>
     </div>
-  </div>
-</div>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
